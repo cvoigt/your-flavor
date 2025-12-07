@@ -4,7 +4,7 @@ A chat message customization module for Foundry VTT v13. Allow players to person
 
 ## Features
 
-- **40+ Layout Presets** - Choose from elegant, parchment, royal, class-themed (mage, warrior, bard), race-themed (elf, dwarf, orc), and more
+- **60+ Layout Presets** - Choose from elegant, parchment, royal, class-themed (mage, warrior, bard), race-themed (elf, dwarf, orc), and more
 - **Full Customization** - Customize fonts, colors, borders, glows, shadows, and more
 - **Google Fonts** - Beautiful fantasy fonts like Cinzel, Tangerine, Pirata One
 - **Smart Detection** - Automatically skips system rolls, item cards, and complex messages
