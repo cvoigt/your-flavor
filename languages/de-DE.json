@@ -1,0 +1,309 @@
+{
+    "YOUR_FLAVOR": {
+        "Settings": {
+            "ModuleEnabled": {
+                "Name": "Modul Aktivieren",
+                "Hint": "Globales Aktivieren oder Deaktivieren des Your Flavor Moduls"
+            },
+            "AllowPlayerCustomization": {
+                "Name": "Anpassung durch Spieler:innen erlauben",
+                "Hint": "Erlaubt Spieler:innen das Anpassen ihrer eigenen Chat-Nachrichten. Ist diese Einstellung deaktiviert, kann nur ein:e GM Anpassungen vornehmen."
+            },
+            "ForcePlayerLayout": {
+                "Name": "Layout für Spieler:innen erzwingen",
+                "Hint": "Erzwingt ein ausgewähltes Layout für alle Spieler:innen. Überschreibt individuelle Einstellungen der Spieler:innen.",
+                "Choices": {
+                    "None": "Nicht erzwingen (Einstellung der Spieler:in nutzen)"
+                }
+            },
+            "AllowCustomHtml": {
+                "Name": "Benutzerdefiniertes HTML Erlauben (Spieler:innen)",
+                "Hint": "Erlaubt Spieler:innen benutzerdefinierte HTML Vorlagen zu verwenden. GMs können dies immer. Mit Vorsicht zu verwenden."
+            },
+            "ApplyToWhispers": {
+                "Name": "Auf Flüstern anwenden",
+                "Hint": "Wendet den gewählten Stil auch auf Flüsternachrichten an."
+            },
+            "UIScale": {
+                "Name": "Skalierung des Konfigurationsfensters",
+                "Hint": "Skaliert das Konfigurationsfenster für bessere Lesbarkeit (80%-150%). Änderungen werden angewendet, wenn das Konfigurationsfenster geöffnet wird."
+            },
+            "Configure": {
+                "Name": "Your Flavor konfigurieren",
+                "Label": "Konfiguration öffnen",
+                "Hint": "Öffnet das Your Flavor Konfigurationsfenster zum anpassen Eures Chat-Stils."
+            }
+        },
+        "Controls": {
+            "Configure": "Your Flavor konfigurieren"
+        },
+        "Config": {
+            "Title": "Your Flavor",
+            "Subtitle": "Pass an, wie Eure Chatnachrichten angezeigt werden",
+            "Enable": "Angepasste Stile aktivieren",
+            "LayoutSection": "Layouts",
+            "Preview": "Vorschau",
+            "PreviewText": "So werden Eure Nachrichten im Chat erscheinen!",
+            "PreviewTime": "jetzt",
+            "StatusEnabled": "Aktiv",
+            "StatusDisabled": "Inaktiv",
+            "CustomizeSection": "Anpassungen",
+            "FontFamily": "Schriftart",
+            "FontSize": "Größe",
+            "Colors": "Farben",
+            "TextColor": "Text",
+            "BackgroundColor": "Hintergrund",
+            "BorderColor": "Rand",
+            "BorderStyle": "Rand Stil",
+            "BorderWidth": "Breite",
+            "BorderRadius": "Ecken",
+            "Effects": "Effekte",
+            "Glow": "Glühen",
+            "Shadow": "Schatten",
+            "GlowEnabled": "Glühen aktivieren",
+            "GlowColor": "Glühen Farbe",
+            "GlowIntensity": "Intensität",
+            "ShadowEnabled": "Schatten",
+            "NameTimestampColors": "Name / Zeit",
+            "NameColor": "Spieler:innen Name",
+            "TimestampColor": "Zeitstempel",
+            "AdvancedSection": "Erweitert",
+            "AdvancedWarning": "Benutzerdefiniertes HTML kann die Chat-Darstellung beeinträchtigen. Vorsicht ist geboten.",
+            "CustomHtmlPlaceholder": "Benutzerdefinierte HTML Vorlagen...",
+            "TestButton": "Test",
+            "ResetButton": "Zurücksetzen",
+            "SaveButton": "Speichern",
+            "CloseButton": "Schließen",
+            "TestMessage": "Dies ist eine Testnachricht von Your Flavor! Sieht super aus!",
+            "NoPermission": "Die Chat-Anpassung für Spieler:innen ist durch den/die GM deaktiviert.",
+            "ForcedLayout": "Der/die GM hat das Layout festgelegt auf:"
+        },
+        "Categories": {
+            "Basic": "Einfach",
+            "Classes": "Klassen",
+            "Races": "Spezies",
+            "Themes": "Themes",
+            "Modern": "Modern",
+            "Misc": "Andere"
+        },
+        "Layouts": {
+            "None": {
+                "Name": "Keins",
+                "Description": "Keine Stil-Anpassung - die Standard Chat-Darstellung wird verwendet"
+            },
+            "Elegant": {
+                "Name": "Elegant",
+                "Description": "Edle goldene Ränder mit dunklen Farbverläufen"
+            },
+            "Parchment": {
+                "Name": "Pergament",
+                "Description": "Mittelalterliche Schriftrolle mit gealterter Papierstruktur"
+            },
+            "Royal": {
+                "Name": "Königlich",
+                "Description": "Edles Purpurrot und Gold mit Kronenemblem"
+            },
+            "Shadow": {
+                "Name": "Schatten",
+                "Description": "Dunkel und geheimnisvoll mit verblassenden Rändern"
+            },
+            "Warrior": {
+                "Name": "Krieger:in",
+                "Description": "Stark und robust, im Kampf geschmiedet"
+            },
+            "Thief": {
+                "Name": "Schurk:in",
+                "Description": "Geheimnisvoll und schwer fassbar, verborgen in der Dunkelheit"
+            },
+            "Bard": {
+                "Name": "Bard:in",
+                "Description": "Melodisch und charmant, von Musik berührt"
+            },
+            "Druid": {
+                "Name": "Druid:in",
+                "Description": "Natürlich und organisch, von der Natur gesegnet"
+            },
+            "Barbarian": {
+                "Name": "Barbar:in",
+                "Description": "Wild und urtümlich, voller Wut"
+            },
+            "Cleric": {
+                "Name": "Kleriker:in",
+                "Description": "Heilig und strahlend, gesegnet vom Göttlichen"
+            },
+            "Paladin": {
+                "Name": "Paladin",
+                "Description": "Gerecht und leuchtend, strahlend vor Gerechtigkeit"
+            },
+            "Monk": {
+                "Name": "Mönch",
+                "Description": "Gelassen und ausgeglichen, im Einklang mit der Welt"
+            },
+            "Sorcerer": {
+                "Name": "Magier:in",
+                "Description": "Chaotisch und kraftvoll, voller angeborener Magie"
+            },
+            "Mage": {
+                "Name": "Zauberer:in",
+                "Description": "Mystisch und geheimnisvoll, im Gebrauch uralten Wissens"
+            },
+            "Ranger": {
+                "Name": "Waldläufer:in",
+                "Description": "Wild und wachsam, eins mit dem Wald"
+            },
+            "Warlock": {
+                "Name": "Hexenmeister:in",
+                "Description": "Dunkel und geheimnisvoll, gebunden durch uralte Pakte."
+            },
+            "Elf": {
+                "Name": "Elf",
+                "Description": "Anmutig und ätherisch, uralt und weise."
+            },
+            "Orc": {
+                "Name": "Orc",
+                "Description": "Brutal und mächtig, stolze Krieger:in"
+            },
+            "Dwarf": {
+                "Name": "Zwerg:in",
+                "Description": "Robust und standhaft, Meister:innen über Stein und Metall"
+            },
+            "Dragon": {
+                "Name": "Drache",
+                "Description": "Majestätisch und mächtig, uralt und furchterregend"
+            },
+            "Necromancer": {
+                "Name": "Nakromant:in",
+                "Description": "Dunkle Magie und untot, grünes, unheimliches Leuchten"
+            },
+            "Vampire": {
+                "Name": "Vampir:in",
+                "Description": "Elegant und tödlich, blutrote Dunkelheit"
+            },
+            "Beholder": {
+                "Name": "Beholder",
+                "Description": "Fremdartig und bizarr, abartiger violetter Wahnsinn"
+            },
+            "Zombie": {
+                "Name": "Zombie",
+                "Description": "Verfallen und wankend, verrottendes Grün"
+            },
+            "Fire": {
+                "Name": "Feuer",
+                "Description": "Lodernde und intensive, brennende orangefarbene Flammen"
+            },
+            "Cold": {
+                "Name": "Kälte",
+                "Description": "Gefroren und knackig, eisblaue Kühle"
+            },
+            "Acid": {
+                "Name": "Säure",
+                "Description": "Ätzend und giftig, blubberndes Grün"
+            },
+            "Desert": {
+                "Name": "Wüste",
+                "Description": "Trocken und uralt, goldener Sand"
+            },
+            "Glacial": {
+                "Name": "Gletscher",
+                "Description": "Reines und unberührtes, kristallines Eis"
+            },
+            "Evil": {
+                "Name": "Teuflisch",
+                "Description": "Bösartig und dunkel, unheilvoll rot"
+            },
+            "Good": {
+                "Name": "Gut",
+                "Description": "Reines und gerechtes, göttliches Licht"
+            },
+            "Futuristic": {
+                "Name": "Futuristisch",
+                "Description": "Elegant und fortschrittlich, neon-cyanfarbene Technologie"
+            },
+            "Cyberpunk": {
+                "Name": "Cyberpunk",
+                "Description": "Rau und neonfarben, knall-pinke Schaltkreise"
+            },
+            "Military": {
+                "Name": "Militär",
+                "Description": "Taktisch und diszipliniert, Armeegrün"
+            },
+            "Girly": {
+                "Name": "Niedlich",
+                "Description": "Süß und niedlich, rosa und lieblich"
+            },
+            "Rebel": {
+                "Name": "Rebellisch",
+                "Description": "Trotzig und kühn, anarchistisches Rot"
+            },
+            "Professor": {
+                "Name": "Professor:in",
+                "Description": "Akademisch und kultiviert, akademisches Pergament"
+            },
+            "Punk": {
+                "Name": "Punk",
+                "Description": "Laut und aggressiv, elektrisch gelb"
+            },
+            "HipHop": {
+                "Name": "Hip Hop",
+                "Description": "Frisch und gewagt, goldener Glanz"
+            },
+            "Bland": {
+                "Name": "Langweilig",
+                "Description": "Schlicht und klar, minimalistisches Grau"
+            },
+            "Steampunk": {
+                "Name": "Steampunk",
+                "Description": "Zahnräder aus Messing und viktorianische Maschinen, Kupfer- und Bronzetöne"
+            },
+            "Eldritch": {
+                "Name": "Eldritch",
+                "Description": "Kosmischer Horror und unergründliches Wissen, dunkelblauer Wahnsinn"
+            },
+            "Feywild": {
+                "Name": "Feywild",
+                "Description": "Verspielte, feenhafte Magie, leuchtender violetter und rosa Zauber"
+            },
+            "Celestial": {
+                "Name": "Himmlisch",
+                "Description": "Göttlicher Glanz und himmlisches Licht, goldener und weißer Glanz"
+            },
+            "Pirate": {
+                "Name": "Pirat:in",
+                "Description": "Verwitterte Meere und geplündertes Gold, salziges braunes Holz"
+            },
+            "Noir": {
+                "Name": "Noir",
+                "Description": "Schwarz-weiße Schatten, geheimnisvoller Detektivstil"
+            },
+            "Alchemist": {
+                "Name": "Alchemist:in",
+                "Description": "Blubbernde Zaubertränke und mystische Wissenschaft, grüne Experimente"
+            },
+            "Infernal": {
+                "Name": "Infernal",
+                "Description": "Höllenfeuer und Schwefel, brennende rote Verderbnis"
+            },
+            "Merchant": {
+                "Name": "Händler:in",
+                "Description": "Reiche Eleganz und prunkvolles Gold, edler Handel"
+            },
+            "Tribal": {
+                "Name": "Tribal",
+                "Description": "Urgeister und Erdtöne, schamanische Kraft"
+            },
+            "Custom": {
+                "Name": "Benutzerdefiniert",
+                "Description": "Kreiere Deinen eigenen, einzigartigen Stil"
+            }
+        },
+        "Dialog": {
+            "ResetTitle": "Konfiguration zurücksetzen",
+            "ResetContent": "Bist Du sicher, dass Du Your Flavor auf die Standardeinstellungen zurücksetzen möchtest? Dies kann nicht rückgängig gemacht werden."
+        },
+        "Notifications": {
+            "Saved": "Konfiguration erfolgreich gespeichert!",
+            "SaveError": "Fehler beim Speichern. Überprüfen Sie die Konsole.",
+            "Reset": "Konfiguration zurückgesetzt."
+        }
+    }
+}
